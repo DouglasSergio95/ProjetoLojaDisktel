@@ -18,6 +18,11 @@ p{
   font-size: 25px;
   padding:  auto 1em;
 }
+a{
+  color: #000000;
+  text-decoration: none;
+}
+
 .logo-loja{
   width: 12%;
   margin: 10px auto;
@@ -58,12 +63,28 @@ p{
   padding: 14px 10px;
   font-size: 35px;
 }
-.caixa ul li a{
-  color: #000000;
-  text-decoration: none;
-}
+
 .img-equipe{
   float: left;
+}
+
+/* Contatos */
+.linkwhats{
+  margin: 0 auto;
+  width: 100px;
+  height: auto;
+}
+.linkwhats a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linkwhats p{
+  white-space: nowrap;
+}
+.img-whatsapp{
+  width: 100%;
+  margin: 0 -30px;
 }
 
 /* footer */
