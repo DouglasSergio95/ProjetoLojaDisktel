@@ -1,5 +1,6 @@
 html,body{
   display: flex;
+  width: 100%;
   height: auto;
   overflow-x: none;
 }
@@ -22,31 +23,12 @@ a{
   color: #000000;
   text-decoration: none;
 }
-
-.logo-loja{
-  width: 12%;
-  margin: 10px auto;
-}
-.img-frente-da-loja{
-  display: block;
-  margin: 3em auto;
-  width: 70%;
-}
-.principal-secon{
-  margin:auto 4em;
-  /* background: white; */
-  /* color: aliceblue; */
-}
-.img-equipe{
-  width: 15%;
-  height: auto;
-  margin-right: 10px;
-}
 /* navegacâo */
 
 .logo-loja{
   margin-left: 2em;
   float: left;
+  width: 12%;
 }
 .caixa{
   display: flex;
@@ -64,11 +46,39 @@ a{
   font-size: 35px;
 }
 
+/* body */
+.img-frente-da-loja{
+  display: block;
+  margin: 3em auto;
+  width: 70%;
+}
+.principal-secon{
+  margin:auto 4em;
+  /* background: white; */
+  /* color: aliceblue; */
+}
 .img-equipe{
+  width: 15%;
+  height: auto;
+  margin-right: 10px;
   float: left;
 }
 
+/* Servicos */
+
+.servicos{
+  width: 940px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /* Contatos */
+.contatos p {
+  margin-left: 12px;
+  padding-top: 1em;
+  text-align: center;
+}
+
 .linkwhats{
   margin: 0 auto;
   width: 100px;
@@ -84,7 +94,8 @@ a{
 }
 .img-whatsapp{
   width: 100%;
-  margin: 0 -30px;
+  margin-left: -3em;
+
 }
 
 /* footer */
